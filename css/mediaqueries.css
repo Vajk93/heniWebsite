@@ -1,0 +1,130 @@
+/* general seggings - difference pc and ipad/mobile screen */
+@media screen and (max-width: 1280px) {
+  #onlyDesktopNav {
+    display: none;
+  }
+
+  body {
+    background-image: url("https://schillingheni.hu/images/mobileBG.jpg") !important;
+  }
+
+  header nav {
+    top: 0;
+  }
+
+  #navbar ul {
+    display: none;
+  }
+
+  #hero h1 {
+    font-size: 36px;
+  }
+
+  #hero p {font-size: 24px;}
+ 
+  nav img {  /* logo */
+    width: 40px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 0;
+   }
+
+  #bar-icon {
+    display: block !important;
+    margin-top: 26px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #aboutMe {
+    width: 100%;
+  }
+
+  #aboutMe div {
+    width: 100vw;
+  }
+
+  #aboutMe p {
+    padding:0px;
+  }
+  .servicesAndCosts {
+    padding: 15px;
+  }
+
+  #questionContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  footer .footer-contact-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  footer .opening {
+    /* background: blue; */
+    line-height: 1.5;
+    color: var(--white);
+    margin: 20px;
+  }
+}
+/* general settings - bottom */
+
+
+
+
+/* Media Query for Mobile Devices */ /* mobile portrait */
+@media (max-width: 480px) {
+  body {
+      /* background: red !important; */
+  }
+  #hero {
+    text-align: center;
+  }
+  .extra-location-info-on-desktop {
+    display: none;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  main {}
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  main {}
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  main {}
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  main {}
+
+  .prev:hover, .next:hover {
+    background-color: var(--orange);
+  }
+  nav ul a:hover {
+    color: var(--black);
+    transition: 400ms;
+  }
+  #hero a:nth-child(1) button:hover {
+    border: 3px solid var(--orange);
+    transition: 300ms;
+  }
+  #hero a:nth-child(2) button:hover {
+    border: 3px solid var(--white);
+    transition: 300ms;
+  }
+}

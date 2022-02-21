@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mediaqueries.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <title>Schilling Heni - Professzionális fodrász</title>
+</head>
+<body>
+  <header>
+    <!-- ------------------------------------ ONLY DESKTOP NAV INFOS ---------------------------------------- -->
+    <section id="onlyDesktopNav">
+      <div class="container" style="background: red">
+        <div>
+          <a href="https://goo.gl/maps/cPw2BRFvpjs54cSw8" target="_black"><i class="fa fa-map-marker"></i>Budapest 1154 Kis Rákos utca 3.</a>
+          <a href="mailto:schillingheni@gmail.com" target="_black"><i class="fa fa-envelope-o"></i>schillingheni@gmail.com</a>
+          <a href="tel:5554280940" target="_black"><i class="fa fa-phone"></i>+36202159099</a>
+        </div>
+        <div class="onlyDesktopLogos">
+          <a class="facebook-a-href" href="https://www.facebook.com/hbheni/" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+          <a class="instagram-a-href" href="https://instagram.com/hairby_heni" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------- MOBILE BACKGROUND IMAGE  ------------------------------ -->
+    <img id="mobileBG" src="images/mobileBG.jpg" alt="mobile-background">
+
+
+    <!-- -------------------------------------------- NAVBAR ------------------------------------------------ -->
+    <nav id="navbar">
+      <div class="container">
+        <a href="#hero">
+          <img src="images/logo.jpg" alt="logo">
+        </a>
+        <ul>
+          <a href="#aboutMe">Rólam</a>
+          <a href="#services">Szolgáltatások</a>
+          <a href="#galery">Galéria</a>
+          <a href="#testimonials">Vélemények</a>
+          <a href="#frequentlyAskedQuestions">GyIK</a>
+          <a href="#footer">Kapcsolat</a>
+        </ul>
+        <div onclick="menuBarToggle()" id="bar-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <!-- ----------------------------------------- MOBILE MENU ---------------------------------------------- -->
+    <section id="mobileMenu">
+      <i class="fa fa-scissors fa-2x" aria-hidden="true"></i>
+      <ul>
+        <a href="#aboutMe">Rólam</a>
+        <a href="#services">Szolgáltatások</a>
+        <a href="#galery">Galéria</a>
+        <a href="#testimonials">Vélemények</a>
+        <a href="#frequentlyAskedQuestions">GyIK</a>
+        <a href="#footer">Kapcsolat</a>
+      </ul>
+      <i class="fa fa-scissors fa-2x" aria-hidden="true" style="transform:rotate(180deg)"></i>
+    </section>
+    <!-- -------------------------------------------- HERO -------------------------------------------------- -->
+    <section id="hero">
+      <h1>Schilling Heni</h1>
+      <p>professzionális fodrász</p>
+      <div>
+        <a href="#galery"><button>Galéria</button></a>
+        <a href="#services"><button>Árak</button></a>
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-- -------------------------------------------- ABOUT ME ---------------------------------------------- -->
+    <section id="aboutMe">
+      <h2 class="littleTitleDark">Történetem</h2>
+      <div class="container" style="max-width: 800px;">
+        <p>Schilling Heni vagyok és több mint 5 éve dolgozom a szakmában. Azon szerencsés kevesek egyike vagyok, aki azt csinálja amit gyerekkora óta szeretett volna. Szerintem a legfontosabb a szakma tisztelete és a folyamatos önfejlesztés. A Clips Nemzetközi fodrász akadémián végeztem 2018-ban. Az iskola megkezdésével párhuzamosan kerültem fodrász technikusi pozícióba, hogy minél hamarabb szalonkörnyezetbe tudjam gyakorolni a szakmám. Mind emellett fejlesztettem a tudásomat és részt vettem a Schwarzkopf Academy oktatásain is. 2019 óta a Brigitte Hair and Beauty csapatát erősítem. Fodrászként a legfőbb motivációm a vendégeim maximális kiszolgálása és az egyénre szabott álmok megvalósítása, legyen szó hajvágásról, balayage festésről, vagy akár egyedi szín megalkotásáról.</p>
+      </div>
+      <i class="fa fa-scissors fa-3x" aria-hidden="true" style="color:black;"></i>
+    </section>
+    <!-- -------------------------------------------- SERVICES ---------------------------------------------- -->
+    <section id="services">
+      <h2 class="littleTitleOrange">Szolgáltatások</h2>
+      <div class="servicesAndCosts" class="container" style="max-width: 800px; margin: 0 auto;">
+        <div><p>Női hajvágás</p><span>6.000-9.000.-</span></div>
+        <div><p>Férfi hajvágás</p><span>4.500-6.000.-</span></div>
+        <div class="empty-row"><p>&nbsp</p></div>
+        <div class="empty-row"><p>Női hajszárítás:</p></div>
+        <div><p>Rövid</p><span>4.000.-</span></div>
+        <div><p>Félhosszú</p><span>5.000.-</span></div>
+        <div><p>Hosszú</p><span>6.500.-</span></div>
+        <div><p>Gyermek hajvágás 6 évesig mosás nélkül</p><span>3.500-4.000.-</span></div>
+        <div><p>12 évesig mosással</p><span>5.500-6.000.-</span></div>
+        <div class="empty-row"><p>&nbsp</p></div>
+        <div><p>Tőfestés szárítással rövid</p><span>11.000.-</span></div>
+        <div><p>Tőfestés szárítással félhosszú</p><span>12.500.-</span></div>
+        <div><p>Tőfestés szárítással hosszú</p><span>14.900.-</span></div>
+        <div><p>Bármelyik festés vágással</p><span>+3.000-4.500.-</span></div>
+        <div><p>Hajfestés teljes hajhosszon szárítással rövid</p><span>12.500.-</span></div>
+        <div><p>Hajfestés teljes hajhosszon szárítással félhosszú</p><span>15.000.-</span></div>
+        <div><p>Hajfestés teljes hajhosszon szárítással rövid</p><span>20.000.-</span></div>
+        <div class="empty-row"><p>&nbsp</p></div>
+        <div class="empty-row"><p>Melírozás csak tő:</p></div>
+        <div><p>Félhosszú</p><span>16.000.-</span></div>
+        <div><p>Hosszú</p><span>18.000.-</span></div>
+        <div class="empty-row"><p>&nbsp</p></div>
+        <div><p>Balayage light</p><span>25.000.-</span></div>
+        <div><p>Balayage hosszú</p><span>30.000.-</span></div>
+        <div><p>Balayage extra hosszú</p><span>35.000.-</span></div>
+        <div><p>Balayage extra dús</p><span>+5.000.-</span></div>
+        <div><p>Balayage + tőfestés</p><span>+5.000.-</span></div>
+        <div><p>Balayage OLAPLEXEL</p><span>+4.000-7.000.-</span></div>
+        <div><p>OLAPLEX kezelés<span class="littleFont">/mosás- szárítással/</span></p><span>10.000.-</span></div>
+        <div><p>Dús felár</p><span>+2.000.-</span></div>
+      </div>
+    </section>
+    <!-- -------------------------------------------- GALERY ---------------------------------------------- -->
+    <section id="galery">
+      <h2 class="littleTitleOrange">Galéria</h2>
+      <div class="slideshow-container" style="max-width: 500px;">
+          <div class="mySlides fade">
+            <img src="images/hair01.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/hair02.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/hair03.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/hair04.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/hair05.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/hair06.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/hair07.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/hair08.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/hair09.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/hair10.jpg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+          </div>
+          <br>
+          
+          <div class="dots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span> 
+            <span class="dot" onclick="currentSlide(7)"></span> 
+            <span class="dot" onclick="currentSlide(8)"></span> 
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>  
+          </div>
+    </section>
+    <!-- ----------------------------------------- TESTIMONIALS ------------------------------------------- -->
+    <section id="testimonials">
+      <h2 class="littleTitleDark">Vélemények</h2>
+      <div class="testimonials-container">
+        <div id="cards-container">
+          <div class="card">
+            <img class="opinion-profile-pic" src="images/newProfile04.jpg" alt="testimonial_profile01">
+            <div>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>"Olyan jó, hogy a kisállatomat is magammal hozhattam. Legközelebb is jövök!"
+            </p>
+            <span>Lilla</span>
+          </div>
+          <div class="card">
+            <img class="opinion-profile-pic" src="images/newProfile02.jpg" alt="testimonial_profile02">
+            <div>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>"Megvagyok elégedve, és még egy finom lattét is kaptam!"</p>
+            <span>Ramina</span>
+          </div>
+          <div class="card">
+            <img class="opinion-profile-pic" src="images/newProfile05.jpg" alt="testimonial_profile03">
+            <div>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>"Jól esett a hajmosásnál a frissítő fejmasszázs! :)"</p>
+            <span>Dani</span>
+          </div>
+          <div class="card">
+            <img class="opinion-profile-pic" src="images/newProfile01.jpg" alt="testimonial_profile04">
+            <div>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>"Nagyon megvoltam elégedve!"</p>
+            <span>Lilla</span>
+          </div>
+          <div class="card">
+            <img class="opinion-profile-pic" src="images/newProfile03.jpg" alt="testimonial_profile05">
+            <div>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>"Gyertek hozzá bizalommal! :)"</p>
+            <span>Hanna</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------- FREQUENTLY ASKED QUESTIONS -------------------------------------- -->
+    <section id="frequentlyAskedQuestions" class="container" style="margin: 0 auto;">
+      <h2 class="littleTitleOrange">GyIK</h2>
+
+      <div class="questionContainer">
+        <div class="question question1" onclick="openAnswer(1)">
+          <p>Jöhetek bejelentkezés nélkül is? </p>
+          <div class="questionIcon">
+            <div class="questionIcon1part"></div>
+            <div class="questionIcon2part"></div>
+          </div>
+        </div>
+        <div class="answer answer1">
+          <p>A bejelentkezés szükséges.</p>
+        </div>
+      </div>
+
+      <div class="questionContainer">
+        <div class="question question2" onclick="openAnswer(2)">
+          <p>Hozhatok képet arról, milyen hajat szeretnék?</p>
+          <div class="questionIcon">
+            <div class="questionIcon1part"></div>
+            <div class="questionIcon2part"></div>
+          </div>
+        </div>
+        <div class="answer answer2">
+          <p>Természetesen, sőt ajánlott.</p>
+        </div>
+      </div>
+
+      <div class="questionContainer">
+        <div class="question question3" onclick="openAnswer(3)">
+          <p>Milyen hajápolási termékeket használtok?</p>
+          <div class="questionIcon">
+            <div class="questionIcon1part"></div>
+            <div class="questionIcon2part"></div>
+          </div>
+        </div>
+        <div class="answer answer3">
+          <p>Schwarzkopf, Joico, Tigi.</p>
+        </div>
+      </div>
+
+      <div class="questionContainer">
+        <div class="question question4" onclick="openAnswer(4)">
+          <p>Elhozhatom a házi kedvencemet hozzátok?</p>
+          <div class="questionIcon">
+            <div class="questionIcon1part"></div>
+            <div class="questionIcon2part"></div>
+          </div>
+        </div>
+        <div class="answer answer4">
+          <p>Természetesen igen.</p>
+        </div>
+      </div>
+
+      <div class="questionContainer">
+        <div class="question question5" onclick="openAnswer(5)">
+          <p>Mennyi idővel előtte mondhatom le az időpontokat?</p>
+          <div class="questionIcon">
+            <div class="questionIcon1part"></div>
+            <div class="questionIcon2part"></div>
+          </div>
+        </div>
+        <div class="answer answer5">
+          <p>48 órával elötte.</p>
+        </div>
+      </div>
+
+      <div class="questionContainer">
+        <div class="question question6" onclick="openAnswer(6)">
+          <p>Telefonon tudok lemondani és a face/insta oldaladon ip-t?</p>
+          <div class="questionIcon">
+            <div class="questionIcon1part"></div>
+            <div class="questionIcon2part"></div>
+          </div>
+        </div>
+        <div class="answer answer6">
+          <p>Igen.</p>
+        </div>
+      </div>
+
+      <div class="questionContainer">
+        <div class="question question7" onclick="openAnswer(7)">
+          <p>Kocsival mennék, meg tudok ott állni valahol?</p>
+          <div class="questionIcon">
+            <div class="questionIcon1part"></div>
+            <div class="questionIcon2part"></div>
+          </div>
+        </div>
+        <div class="answer answer7">
+          <p>Igen, az utcában ingyenes a parkolás.</p>
+        </div>
+      </div>
+
+      <div class="questionContainer">
+        <div class="question question8" onclick="openAnswer(8)">
+          <p>Vehetek tőletek hajápoló termékeket?</p>
+          <div class="questionIcon">
+            <div class="questionIcon1part"></div>
+            <div class="questionIcon2part"></div>
+          </div>
+        </div>
+        <div class="answer answer8">
+          <p>Természetesen!</p>
+        </div>
+      </div>
+
+      <div class="questionContainer">
+        <div class="question question9" onclick="openAnswer(9)">
+          <p>Tudok kártyával fizetni?</p>
+          <div class="questionIcon">
+            <div class="questionIcon1part"></div>
+            <div class="questionIcon2part"></div>
+          </div>
+        </div>
+        <div class="answer answer9">
+          <p>Igen.</p>
+        </div>
+      </div>
+      <i class="fa fa-scissors fa-3x" style="color: #FCB900; margin-top: 60px;" aria-hidden="true"></i>
+    </section>
+    <!-- -------------------------------------- YOUTUBE VIDEO --------------------------------------------- -->
+    <section id="youtube">
+      <h2 class="littleTitleOrange">Így dolgozunk</h2>
+      <iframe class="youtube-video" width="50%" height="auto" src="https://www.youtube.com/embed/jhJw0p5rop4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+    </section>
+  </main>
+  <!-- -------------------------------------------- FOOTER ------------------------------------------------ -->
+  <footer id="footer">
+    <div class="footer-contact-infos container">
+      <div class="contact-links">
+        <a href="">+36 20 215 90 99</a>
+        <a href="">schillingheni@gmail.com</a>
+        <a href="">Budapest 1154 Kis Rákos utca 3.</a>
+        <p class="extra-location-info-on-desktop">Családi ház aljában található szalon kapucsengővel.</p>
+        <p class="extra-location-info-on-desktop">Parkolás az utcán ingyenes.</p>
+      </div>
+      <div class="opening">
+        <p>H-P: 10:00-19:00</p>
+        <p>Szom.: Megbeszélés szerint</p>
+        <p>Vas.: Zárva</p>
+      </div>
+      <div class="footer-social-icons">
+          <a href="https://www.facebook.com/hbheni/" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+          <a href="https://instagram.com/hairby_heni" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        </div>
+    </div>
+    <div class="company-copyright">
+      <p>Schilling Heni&#169 2022</p>
+    </div>
+  </footer>
+<script src="app.js"></script>
+</body>
+</html>
+  <!-- -------------------------------------------- THE END --------------------------------------------- -->
+
